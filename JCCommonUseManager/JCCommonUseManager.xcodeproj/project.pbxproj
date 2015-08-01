@@ -14,6 +14,7 @@
 		B798FF151B6B10CA00BF35AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B798FF141B6B10CA00BF35AF /* Images.xcassets */; };
 		B798FF181B6B10CA00BF35AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B798FF161B6B10CA00BF35AF /* LaunchScreen.xib */; };
 		B798FF241B6B10CA00BF35AF /* JCCommonUseManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B798FF231B6B10CA00BF35AF /* JCCommonUseManagerTests.m */; };
+		B7E731CC1B6D0C2600889DA8 /* JCVaildJudger.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E731CB1B6D0C2600889DA8 /* JCVaildJudger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		B798FF1D1B6B10CA00BF35AF /* JCCommonUseManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCCommonUseManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B798FF221B6B10CA00BF35AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B798FF231B6B10CA00BF35AF /* JCCommonUseManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCCommonUseManagerTests.m; sourceTree = "<group>"; };
+		B7E731CA1B6D0C2600889DA8 /* JCVaildJudger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCVaildJudger.h; sourceTree = "<group>"; };
+		B7E731CB1B6D0C2600889DA8 /* JCVaildJudger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCVaildJudger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				B79156A11B6B25D900F2A5C6 /* JCUtils.h */,
 				B74A246C1B6C688600E74DE9 /* JCLog.h */,
 				B74A246F1B6C69B400E74DE9 /* JCCommonUseManager.h */,
+				B7E731CA1B6D0C2600889DA8 /* JCVaildJudger.h */,
+				B7E731CB1B6D0C2600889DA8 /* JCVaildJudger.m */,
 			);
 			path = JCCommonUseManager;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E731CC1B6D0C2600889DA8 /* JCVaildJudger.m in Sources */,
 				B798FF071B6B10CA00BF35AF /* AppDelegate.m in Sources */,
 				B798FF041B6B10CA00BF35AF /* main.m in Sources */,
 				B79156A51B6B291900F2A5C6 /* HomeViewController.m in Sources */,

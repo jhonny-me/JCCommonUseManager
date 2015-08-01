@@ -10,5 +10,6 @@
 
 @interface HomeViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *testLb;
+@property (weak, nonatomic) IBOutlet UIButton *testBtn;
 
 @end

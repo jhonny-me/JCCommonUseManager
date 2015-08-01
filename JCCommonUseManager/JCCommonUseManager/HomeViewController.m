@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "JCCommonUseManager.h"
+#import "UIViewController+HUD.h"
 
 @interface HomeViewController ()
 
@@ -30,6 +31,14 @@
                      };
     JCLog([a description]);
     JCLog(b);
+    NSLog(@"%d",[JCVaildJudger validateMobile:@"123"]);
+    
+    [self showHudInView:self.view hint:@"adassdd"];
+    [UIView animateWithDuration:2.f animations:^{
+        self.testBtn.center = self.view.center;
+    } completion:^(BOOL finished) {
+        [self hideHud];
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

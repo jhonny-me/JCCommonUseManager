@@ -14,7 +14,9 @@
 		B798FF151B6B10CA00BF35AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B798FF141B6B10CA00BF35AF /* Images.xcassets */; };
 		B798FF181B6B10CA00BF35AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B798FF161B6B10CA00BF35AF /* LaunchScreen.xib */; };
 		B798FF241B6B10CA00BF35AF /* JCCommonUseManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B798FF231B6B10CA00BF35AF /* JCCommonUseManagerTests.m */; };
-		B7E731CC1B6D0C2600889DA8 /* JCVaildJudger.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E731CB1B6D0C2600889DA8 /* JCVaildJudger.m */; };
+		B7E731D01B6D1E2000889DA8 /* JCVaildJudger.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E731CF1B6D1E2000889DA8 /* JCVaildJudger.m */; };
+		B7E731D51B6D1ECC00889DA8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E731D41B6D1ECC00889DA8 /* MBProgressHUD.m */; };
+		B7E731DB1B6D1FDE00889DA8 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E731DA1B6D1FDE00889DA8 /* UIViewController+HUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +46,12 @@
 		B798FF1D1B6B10CA00BF35AF /* JCCommonUseManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCCommonUseManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B798FF221B6B10CA00BF35AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B798FF231B6B10CA00BF35AF /* JCCommonUseManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCCommonUseManagerTests.m; sourceTree = "<group>"; };
-		B7E731CA1B6D0C2600889DA8 /* JCVaildJudger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCVaildJudger.h; sourceTree = "<group>"; };
-		B7E731CB1B6D0C2600889DA8 /* JCVaildJudger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCVaildJudger.m; sourceTree = "<group>"; };
+		B7E731CE1B6D1E2000889DA8 /* JCVaildJudger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCVaildJudger.h; sourceTree = "<group>"; };
+		B7E731CF1B6D1E2000889DA8 /* JCVaildJudger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCVaildJudger.m; sourceTree = "<group>"; };
+		B7E731D31B6D1ECC00889DA8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B7E731D41B6D1ECC00889DA8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B7E731D91B6D1FDE00889DA8 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		B7E731DA1B6D1FDE00889DA8 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +75,12 @@
 		B79156A01B6B25AD00F2A5C6 /* JCCommonUseManager */ = {
 			isa = PBXGroup;
 			children = (
+				B7E731CD1B6D1E2000889DA8 /* JCVaildJudger */,
 				B79156A11B6B25D900F2A5C6 /* JCUtils.h */,
+				B7E731D91B6D1FDE00889DA8 /* UIViewController+HUD.h */,
+				B7E731DA1B6D1FDE00889DA8 /* UIViewController+HUD.m */,
 				B74A246C1B6C688600E74DE9 /* JCLog.h */,
 				B74A246F1B6C69B400E74DE9 /* JCCommonUseManager.h */,
-				B7E731CA1B6D0C2600889DA8 /* JCVaildJudger.h */,
-				B7E731CB1B6D0C2600889DA8 /* JCVaildJudger.m */,
 			);
 			path = JCCommonUseManager;
 			sourceTree = "<group>";
@@ -108,6 +115,7 @@
 		B798FF001B6B10CA00BF35AF /* JCCommonUseManager */ = {
 			isa = PBXGroup;
 			children = (
+				B7E731D11B6D1E8900889DA8 /* thirdPartRelay */,
 				B79156A21B6B28C000F2A5C6 /* AppDelegate */,
 				B79156A01B6B25AD00F2A5C6 /* JCCommonUseManager */,
 				B798FF111B6B10CA00BF35AF /* Main.storyboard */,
@@ -144,6 +152,33 @@
 				B798FF221B6B10CA00BF35AF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7E731CD1B6D1E2000889DA8 /* JCVaildJudger */ = {
+			isa = PBXGroup;
+			children = (
+				B7E731CE1B6D1E2000889DA8 /* JCVaildJudger.h */,
+				B7E731CF1B6D1E2000889DA8 /* JCVaildJudger.m */,
+			);
+			path = JCVaildJudger;
+			sourceTree = "<group>";
+		};
+		B7E731D11B6D1E8900889DA8 /* thirdPartRelay */ = {
+			isa = PBXGroup;
+			children = (
+				B7E731D21B6D1ECC00889DA8 /* MBProgressHUD */,
+			);
+			name = thirdPartRelay;
+			sourceTree = "<group>";
+		};
+		B7E731D21B6D1ECC00889DA8 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B7E731D31B6D1ECC00889DA8 /* MBProgressHUD.h */,
+				B7E731D41B6D1ECC00889DA8 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			path = JCCommonUseManager/thirdPartRelay/MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7E731CC1B6D0C2600889DA8 /* JCVaildJudger.m in Sources */,
+				B7E731DB1B6D1FDE00889DA8 /* UIViewController+HUD.m in Sources */,
+				B7E731D01B6D1E2000889DA8 /* JCVaildJudger.m in Sources */,
 				B798FF071B6B10CA00BF35AF /* AppDelegate.m in Sources */,
+				B7E731D51B6D1ECC00889DA8 /* MBProgressHUD.m in Sources */,
 				B798FF041B6B10CA00BF35AF /* main.m in Sources */,
 				B79156A51B6B291900F2A5C6 /* HomeViewController.m in Sources */,
 			);

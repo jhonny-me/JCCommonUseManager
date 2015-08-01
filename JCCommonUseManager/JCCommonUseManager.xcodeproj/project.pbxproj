@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B79156A51B6B291900F2A5C6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79156A41B6B291900F2A5C6 /* HomeViewController.m */; };
 		B798FF041B6B10CA00BF35AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B798FF031B6B10CA00BF35AF /* main.m */; };
 		B798FF071B6B10CA00BF35AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B798FF061B6B10CA00BF35AF /* AppDelegate.m */; };
-		B798FF0A1B6B10CA00BF35AF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B798FF091B6B10CA00BF35AF /* RootViewController.m */; };
-		B798FF0D1B6B10CA00BF35AF /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B798FF0C1B6B10CA00BF35AF /* DataViewController.m */; };
-		B798FF101B6B10CA00BF35AF /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B798FF0F1B6B10CA00BF35AF /* ModelController.m */; };
 		B798FF131B6B10CA00BF35AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B798FF111B6B10CA00BF35AF /* Main.storyboard */; };
 		B798FF151B6B10CA00BF35AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B798FF141B6B10CA00BF35AF /* Images.xcassets */; };
 		B798FF181B6B10CA00BF35AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B798FF161B6B10CA00BF35AF /* LaunchScreen.xib */; };
@@ -29,17 +27,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B74A246C1B6C688600E74DE9 /* JCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLog.h; sourceTree = "<group>"; };
+		B74A246F1B6C69B400E74DE9 /* JCCommonUseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCommonUseManager.h; sourceTree = "<group>"; };
+		B79156A11B6B25D900F2A5C6 /* JCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCUtils.h; sourceTree = "<group>"; };
+		B79156A31B6B291900F2A5C6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B79156A41B6B291900F2A5C6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		B798FEFE1B6B10CA00BF35AF /* JCCommonUseManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCCommonUseManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B798FF021B6B10CA00BF35AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B798FF031B6B10CA00BF35AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B798FF051B6B10CA00BF35AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B798FF061B6B10CA00BF35AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B798FF081B6B10CA00BF35AF /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		B798FF091B6B10CA00BF35AF /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		B798FF0B1B6B10CA00BF35AF /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		B798FF0C1B6B10CA00BF35AF /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		B798FF0E1B6B10CA00BF35AF /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		B798FF0F1B6B10CA00BF35AF /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		B798FF121B6B10CA00BF35AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B798FF141B6B10CA00BF35AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B798FF171B6B10CA00BF35AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -66,6 +63,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B79156A01B6B25AD00F2A5C6 /* JCCommonUseManager */ = {
+			isa = PBXGroup;
+			children = (
+				B79156A11B6B25D900F2A5C6 /* JCUtils.h */,
+				B74A246C1B6C688600E74DE9 /* JCLog.h */,
+				B74A246F1B6C69B400E74DE9 /* JCCommonUseManager.h */,
+			);
+			path = JCCommonUseManager;
+			sourceTree = "<group>";
+		};
+		B79156A21B6B28C000F2A5C6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B798FF051B6B10CA00BF35AF /* AppDelegate.h */,
+				B798FF061B6B10CA00BF35AF /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
 		B798FEF51B6B10CA00BF35AF = {
 			isa = PBXGroup;
 			children = (
@@ -87,15 +103,11 @@
 		B798FF001B6B10CA00BF35AF /* JCCommonUseManager */ = {
 			isa = PBXGroup;
 			children = (
-				B798FF051B6B10CA00BF35AF /* AppDelegate.h */,
-				B798FF061B6B10CA00BF35AF /* AppDelegate.m */,
-				B798FF081B6B10CA00BF35AF /* RootViewController.h */,
-				B798FF091B6B10CA00BF35AF /* RootViewController.m */,
-				B798FF0B1B6B10CA00BF35AF /* DataViewController.h */,
-				B798FF0C1B6B10CA00BF35AF /* DataViewController.m */,
-				B798FF0E1B6B10CA00BF35AF /* ModelController.h */,
-				B798FF0F1B6B10CA00BF35AF /* ModelController.m */,
+				B79156A21B6B28C000F2A5C6 /* AppDelegate */,
+				B79156A01B6B25AD00F2A5C6 /* JCCommonUseManager */,
 				B798FF111B6B10CA00BF35AF /* Main.storyboard */,
+				B79156A31B6B291900F2A5C6 /* HomeViewController.h */,
+				B79156A41B6B291900F2A5C6 /* HomeViewController.m */,
 				B798FF141B6B10CA00BF35AF /* Images.xcassets */,
 				B798FF161B6B10CA00BF35AF /* LaunchScreen.xib */,
 				B798FF011B6B10CA00BF35AF /* Supporting Files */,
@@ -229,11 +241,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B798FF0D1B6B10CA00BF35AF /* DataViewController.m in Sources */,
 				B798FF071B6B10CA00BF35AF /* AppDelegate.m in Sources */,
-				B798FF101B6B10CA00BF35AF /* ModelController.m in Sources */,
 				B798FF041B6B10CA00BF35AF /* main.m in Sources */,
-				B798FF0A1B6B10CA00BF35AF /* RootViewController.m in Sources */,
+				B79156A51B6B291900F2A5C6 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +438,7 @@
 				B798FF291B6B10CA00BF35AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B798FF2A1B6B10CA00BF35AF /* Build configuration list for PBXNativeTarget "JCCommonUseManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +447,7 @@
 				B798FF2C1B6B10CA00BF35AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

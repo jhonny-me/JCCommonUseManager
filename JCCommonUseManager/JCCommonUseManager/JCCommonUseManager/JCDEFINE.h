@@ -18,4 +18,6 @@
 #define KEYBOARDHEIGHT 216.f
 // 宏定义判断系统
 #define DeviceVersion [[[UIDevice currentDevice] systemVersion] integerValue]
+// 是否是ipad
+#define IsPad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 

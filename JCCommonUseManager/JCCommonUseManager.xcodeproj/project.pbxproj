@@ -61,8 +61,8 @@
 		B7A687B71B7C2DC40019B376 /* JCImageFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCImageFix.m; sourceTree = "<group>"; };
 		B7A687BC1B7C2E170019B376 /* JCHeightCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCHeightCalculator.h; sourceTree = "<group>"; };
 		B7A687BD1B7C2E170019B376 /* JCHeightCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCHeightCalculator.m; sourceTree = "<group>"; };
-		B7AF0E931B706F2900EBE9E5 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		B7AF0E941B706F2900EBE9E5 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		B7AF0E931B706F2900EBE9E5 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "../UIColor+Hex.h"; sourceTree = "<group>"; };
+		B7AF0E941B706F2900EBE9E5 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "../UIColor+Hex.m"; sourceTree = "<group>"; };
 		B7E731CE1B6D1E2000889DA8 /* JCVaildJudger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCVaildJudger.h; sourceTree = "<group>"; };
 		B7E731CF1B6D1E2000889DA8 /* JCVaildJudger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCVaildJudger.m; sourceTree = "<group>"; };
 		B7E731D31B6D1ECC00889DA8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -95,8 +95,6 @@
 				B7A687B51B7C2DC40019B376 /* JCImageFix */,
 				B7E731CD1B6D1E2000889DA8 /* JCVaildJudger */,
 				B79156A11B6B25D900F2A5C6 /* JCDEFINE.h */,
-				B7AF0E931B706F2900EBE9E5 /* UIColor+Hex.h */,
-				B7AF0E941B706F2900EBE9E5 /* UIColor+Hex.m */,
 				B74A246C1B6C688600E74DE9 /* JCLog.h */,
 				B74A246F1B6C69B400E74DE9 /* JCCommonUseManager.h */,
 				B7A687AD1B7C28080019B376 /* JCUtils.h */,
@@ -177,6 +175,8 @@
 		B7A687B01B7C2DC40019B376 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				B7AF0E931B706F2900EBE9E5 /* UIColor+Hex.h */,
+				B7AF0E941B706F2900EBE9E5 /* UIColor+Hex.m */,
 				B7A687B11B7C2DC40019B376 /* UIResponder+Router.h */,
 				B7A687B21B7C2DC40019B376 /* UIResponder+Router.m */,
 				B7A687B31B7C2DC40019B376 /* UIViewController+HUD.h */,

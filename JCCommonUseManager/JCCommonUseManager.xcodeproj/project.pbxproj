@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A663F0035D9EFA3CB49CB91 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 193269C10F9A3984321ACCF8 /* libPods.a */; };
 		B79156A51B6B291900F2A5C6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79156A41B6B291900F2A5C6 /* HomeViewController.m */; };
 		B798FF041B6B10CA00BF35AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B798FF031B6B10CA00BF35AF /* main.m */; };
 		B798FF071B6B10CA00BF35AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B798FF061B6B10CA00BF35AF /* AppDelegate.m */; };
@@ -22,6 +23,9 @@
 		B7AF0E951B706F2900EBE9E5 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AF0E941B706F2900EBE9E5 /* UIColor+Hex.m */; };
 		B7E731D01B6D1E2000889DA8 /* JCVaildJudger.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E731CF1B6D1E2000889DA8 /* JCVaildJudger.m */; };
 		B7E731D51B6D1ECC00889DA8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E731D41B6D1ECC00889DA8 /* MBProgressHUD.m */; };
+		B7F47CBB1B7EDE190050C045 /* MPAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F47CB41B7EDE190050C045 /* MPAPIHelper.m */; };
+		B7F47CBC1B7EDE190050C045 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F47CB81B7EDE190050C045 /* Reachability.m */; };
+		B7F47CBD1B7EDE190050C045 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F47CBA1B7EDE190050C045 /* RequestManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		193269C10F9A3984321ACCF8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF1CE90A0EFF81EB62A63BF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		633B578C094602A9E1795567 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B74A246C1B6C688600E74DE9 /* JCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLog.h; sourceTree = "<group>"; };
 		B74A246F1B6C69B400E74DE9 /* JCCommonUseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCommonUseManager.h; sourceTree = "<group>"; };
 		B79156A11B6B25D900F2A5C6 /* JCDEFINE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDEFINE.h; sourceTree = "<group>"; };
@@ -67,6 +74,13 @@
 		B7E731CF1B6D1E2000889DA8 /* JCVaildJudger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCVaildJudger.m; sourceTree = "<group>"; };
 		B7E731D31B6D1ECC00889DA8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		B7E731D41B6D1ECC00889DA8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B7F47CB31B7EDE190050C045 /* MPAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPAPIHelper.h; sourceTree = "<group>"; };
+		B7F47CB41B7EDE190050C045 /* MPAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPAPIHelper.m; sourceTree = "<group>"; };
+		B7F47CB61B7EDE190050C045 /* PSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLog.h; sourceTree = "<group>"; };
+		B7F47CB71B7EDE190050C045 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B7F47CB81B7EDE190050C045 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B7F47CB91B7EDE190050C045 /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		B7F47CBA1B7EDE190050C045 /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A663F0035D9EFA3CB49CB91 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,9 +102,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22AD6C8271C4AD8E935FC8F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				193269C10F9A3984321ACCF8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B79156A01B6B25AD00F2A5C6 /* JCCommonUseManager */ = {
 			isa = PBXGroup;
 			children = (
+				B7F47CB21B7EDE190050C045 /* MPHelper */,
 				B7A687BB1B7C2DF20019B376 /* JCHeightCalculator */,
 				B7A687B01B7C2DC40019B376 /* Category */,
 				B7A687B51B7C2DC40019B376 /* JCImageFix */,
@@ -118,6 +142,8 @@
 				B798FF001B6B10CA00BF35AF /* JCCommonUseManager */,
 				B798FF201B6B10CA00BF35AF /* JCCommonUseManagerTests */,
 				B798FEFF1B6B10CA00BF35AF /* Products */,
+				CC4C2F76C7752BA3F9408A4C /* Pods */,
+				22AD6C8271C4AD8E935FC8F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,6 +256,37 @@
 			path = JCCommonUseManager/thirdPartRelay/MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		B7F47CB21B7EDE190050C045 /* MPHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B7F47CB31B7EDE190050C045 /* MPAPIHelper.h */,
+				B7F47CB41B7EDE190050C045 /* MPAPIHelper.m */,
+				B7F47CB51B7EDE190050C045 /* Reachability */,
+				B7F47CB91B7EDE190050C045 /* RequestManager.h */,
+				B7F47CBA1B7EDE190050C045 /* RequestManager.m */,
+			);
+			path = MPHelper;
+			sourceTree = "<group>";
+		};
+		B7F47CB51B7EDE190050C045 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B7F47CB61B7EDE190050C045 /* PSLog.h */,
+				B7F47CB71B7EDE190050C045 /* Reachability.h */,
+				B7F47CB81B7EDE190050C045 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		CC4C2F76C7752BA3F9408A4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EF1CE90A0EFF81EB62A63BF /* Pods.debug.xcconfig */,
+				633B578C094602A9E1795567 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -237,9 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B798FF271B6B10CA00BF35AF /* Build configuration list for PBXNativeTarget "JCCommonUseManager" */;
 			buildPhases = (
+				43654E9F9BFB7A07E838D55D /* Check Pods Manifest.lock */,
 				B798FEFA1B6B10CA00BF35AF /* Sources */,
 				B798FEFB1B6B10CA00BF35AF /* Frameworks */,
 				B798FEFC1B6B10CA00BF35AF /* Resources */,
+				E6E8DBDF6C3940F7E2C1F1C6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -325,13 +384,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43654E9F9BFB7A07E838D55D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6E8DBDF6C3940F7E2C1F1C6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B798FEFA1B6B10CA00BF35AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F47CBC1B7EDE190050C045 /* Reachability.m in Sources */,
 				B7E731D01B6D1E2000889DA8 /* JCVaildJudger.m in Sources */,
 				B798FF071B6B10CA00BF35AF /* AppDelegate.m in Sources */,
+				B7F47CBD1B7EDE190050C045 /* RequestManager.m in Sources */,
 				B7A687AF1B7C28080019B376 /* JCUtils.m in Sources */,
 				B7A687B81B7C2DC40019B376 /* UIResponder+Router.m in Sources */,
 				B7E731D51B6D1ECC00889DA8 /* MBProgressHUD.m in Sources */,
@@ -341,6 +435,7 @@
 				B7A687BA1B7C2DC40019B376 /* JCImageFix.m in Sources */,
 				B7A687BE1B7C2E170019B376 /* JCHeightCalculator.m in Sources */,
 				B79156A51B6B291900F2A5C6 /* HomeViewController.m in Sources */,
+				B7F47CBB1B7EDE190050C045 /* MPAPIHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +559,7 @@
 		};
 		B798FF281B6B10CA00BF35AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF1CE90A0EFF81EB62A63BF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JCCommonUseManager/Info.plist;
@@ -474,6 +570,7 @@
 		};
 		B798FF291B6B10CA00BF35AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633B578C094602A9E1795567 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JCCommonUseManager/Info.plist;

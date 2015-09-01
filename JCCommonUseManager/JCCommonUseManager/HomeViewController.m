@@ -24,7 +24,7 @@
 - (void) viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
-    self.testLb.text = [NSString stringWithFormat:@"%f",SCREENWIDTH];
+    self.testLb.text = [NSString stringWithFormat:@"%f",SCREEN_WIDTH];
     NSArray *a = @[@"1",@"4"];
     NSDictionary *b= @{@"1":@1,
                      @"2":@2

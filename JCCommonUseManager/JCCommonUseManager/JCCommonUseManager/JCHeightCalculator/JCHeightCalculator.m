@@ -29,14 +29,14 @@
         space = 5.f;
     }
     
-    CGSize textBlockMinSize = CGSizeMake(SCREENWIDTH -20, MAXFLOAT);
+    CGSize textBlockMinSize = CGSizeMake(SCREEN_WIDTH -20, MAXFLOAT);
     CGSize size;
     static float systemVersion;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         systemVersion = [[[UIDevice currentDevice] systemVersion] floatValue];
     });
-    UIFont *font = IsPad ? [UIFont boldSystemFontOfSize:20.0f] : [UIFont boldSystemFontOfSize:15.f];
+    UIFont *font = IS_IPAD ? [UIFont boldSystemFontOfSize:20.0f] : [UIFont boldSystemFontOfSize:15.f];
     
     if (systemVersion >= 7.0) {
         NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];

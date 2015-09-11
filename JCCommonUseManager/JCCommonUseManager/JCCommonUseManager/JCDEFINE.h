@@ -16,6 +16,7 @@
 #define CURRENT_VIEW [UIApplication sharedApplication].keyWindow
 // 键盘高度
 #define KEYBOARD_HEIGHT 216.f
+#define KEYBOARD_ANIMATE_DURATION 0.3f
 // 宏定义判断系统
 #define DEVICE_VERSION [[[UIDevice currentDevice] systemVersion] integerValue]
 // 是否是ipad

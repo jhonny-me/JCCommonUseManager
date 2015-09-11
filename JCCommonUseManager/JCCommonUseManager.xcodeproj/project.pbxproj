@@ -22,7 +22,6 @@
 		B7A687BE1B7C2E170019B376 /* JCHeightCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A687BD1B7C2E170019B376 /* JCHeightCalculator.m */; };
 		B7AF0E951B706F2900EBE9E5 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AF0E941B706F2900EBE9E5 /* UIColor+Hex.m */; };
 		B7E731D01B6D1E2000889DA8 /* JCVaildJudger.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E731CF1B6D1E2000889DA8 /* JCVaildJudger.m */; };
-		B7E731D51B6D1ECC00889DA8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E731D41B6D1ECC00889DA8 /* MBProgressHUD.m */; };
 		B7F47CBB1B7EDE190050C045 /* MPAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F47CB41B7EDE190050C045 /* MPAPIHelper.m */; };
 		B7F47CBC1B7EDE190050C045 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F47CB81B7EDE190050C045 /* Reachability.m */; };
 		B7F47CBD1B7EDE190050C045 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F47CBA1B7EDE190050C045 /* RequestManager.m */; };
@@ -72,8 +71,6 @@
 		B7AF0E941B706F2900EBE9E5 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "../UIColor+Hex.m"; sourceTree = "<group>"; };
 		B7E731CE1B6D1E2000889DA8 /* JCVaildJudger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCVaildJudger.h; sourceTree = "<group>"; };
 		B7E731CF1B6D1E2000889DA8 /* JCVaildJudger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCVaildJudger.m; sourceTree = "<group>"; };
-		B7E731D31B6D1ECC00889DA8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		B7E731D41B6D1ECC00889DA8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		B7F47CB31B7EDE190050C045 /* MPAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPAPIHelper.h; sourceTree = "<group>"; };
 		B7F47CB41B7EDE190050C045 /* MPAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPAPIHelper.m; sourceTree = "<group>"; };
 		B7F47CB61B7EDE190050C045 /* PSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLog.h; sourceTree = "<group>"; };
@@ -241,19 +238,8 @@
 		B7E731D11B6D1E8900889DA8 /* thirdPartRelay */ = {
 			isa = PBXGroup;
 			children = (
-				B7E731D21B6D1ECC00889DA8 /* MBProgressHUD */,
 			);
 			name = thirdPartRelay;
-			sourceTree = "<group>";
-		};
-		B7E731D21B6D1ECC00889DA8 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				B7E731D31B6D1ECC00889DA8 /* MBProgressHUD.h */,
-				B7E731D41B6D1ECC00889DA8 /* MBProgressHUD.m */,
-			);
-			name = MBProgressHUD;
-			path = JCCommonUseManager/thirdPartRelay/MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		B7F47CB21B7EDE190050C045 /* MPHelper */ = {
@@ -428,7 +414,6 @@
 				B7F47CBD1B7EDE190050C045 /* RequestManager.m in Sources */,
 				B7A687AF1B7C28080019B376 /* JCUtils.m in Sources */,
 				B7A687B81B7C2DC40019B376 /* UIResponder+Router.m in Sources */,
-				B7E731D51B6D1ECC00889DA8 /* MBProgressHUD.m in Sources */,
 				B7AF0E951B706F2900EBE9E5 /* UIColor+Hex.m in Sources */,
 				B7A687B91B7C2DC40019B376 /* UIViewController+HUD.m in Sources */,
 				B798FF041B6B10CA00BF35AF /* main.m in Sources */,

@@ -31,7 +31,9 @@
                      };
     JCLog([a description]);
     JCLog(b);
-    NSLog(@"%d",[JCVaildJudger validateMobile:@"123"]);
+    
+    JCPointLog(CGPointMake(220, 110));
+    JCRectLog(CGRectMake(1, 0, 0, 0));
     
     [self showHudInView:self.view hint:@"adassdd"];
     [UIView animateWithDuration:2.f animations:^{

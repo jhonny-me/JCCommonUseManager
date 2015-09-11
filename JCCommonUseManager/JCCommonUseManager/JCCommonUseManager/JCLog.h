@@ -10,11 +10,11 @@
 
 #ifdef DEBUG
 
-#define JCLog(aParam) NSLog(@"%@",aParam)
+#define JCLog(aParam) NSLog(@"%@:%@",[NSString stringWithFormat:@"%s",#aParam],aParam)
 
-#define JCRectLog(aParam) NSLog(@"%@",NSStringFromCGRect(aParam))
+#define JCRectLog(aParam) NSLog(@"%@:%@",[NSString stringWithFormat:@"%s",#aParam],NSStringFromCGRect(aParam))
 
-#define JCPointLog(aParam) NSLog(@"%@",NSStringFromCGPoint(aParam))
+#define JCPointLog(aParam) NSLog(@"%@:%@",[NSString stringWithFormat:@"%s",#aParam],NSStringFromCGPoint(aParam))
 
 #else
 

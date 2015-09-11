@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7A663F0035D9EFA3CB49CB91 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 193269C10F9A3984321ACCF8 /* libPods.a */; };
+		B71419121BA2C28C004FB662 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B714190D1BA2C28C004FB662 /* CustomTabBar.m */; };
+		B71419131BA2C28C004FB662 /* CustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B714190F1BA2C28C004FB662 /* CustomTabBarViewController.m */; };
+		B71419141BA2C28C004FB662 /* YCTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71419111BA2C28C004FB662 /* YCTabbarViewController.m */; };
 		B79156A51B6B291900F2A5C6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79156A41B6B291900F2A5C6 /* HomeViewController.m */; };
 		B798FF041B6B10CA00BF35AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B798FF031B6B10CA00BF35AF /* main.m */; };
 		B798FF071B6B10CA00BF35AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B798FF061B6B10CA00BF35AF /* AppDelegate.m */; };
@@ -41,6 +44,12 @@
 		193269C10F9A3984321ACCF8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF1CE90A0EFF81EB62A63BF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		633B578C094602A9E1795567 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B714190C1BA2C28C004FB662 /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		B714190D1BA2C28C004FB662 /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		B714190E1BA2C28C004FB662 /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarViewController.h; sourceTree = "<group>"; };
+		B714190F1BA2C28C004FB662 /* CustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarViewController.m; sourceTree = "<group>"; };
+		B71419101BA2C28C004FB662 /* YCTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCTabbarViewController.h; sourceTree = "<group>"; };
+		B71419111BA2C28C004FB662 /* YCTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCTabbarViewController.m; sourceTree = "<group>"; };
 		B74A246C1B6C688600E74DE9 /* JCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLog.h; sourceTree = "<group>"; };
 		B74A246F1B6C69B400E74DE9 /* JCCommonUseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCommonUseManager.h; sourceTree = "<group>"; };
 		B79156A11B6B25D900F2A5C6 /* JCDEFINE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDEFINE.h; sourceTree = "<group>"; };
@@ -107,9 +116,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B714190B1BA2C28C004FB662 /* MtabbarS */ = {
+			isa = PBXGroup;
+			children = (
+				B714190C1BA2C28C004FB662 /* CustomTabBar.h */,
+				B714190D1BA2C28C004FB662 /* CustomTabBar.m */,
+				B714190E1BA2C28C004FB662 /* CustomTabBarViewController.h */,
+				B714190F1BA2C28C004FB662 /* CustomTabBarViewController.m */,
+				B71419101BA2C28C004FB662 /* YCTabbarViewController.h */,
+				B71419111BA2C28C004FB662 /* YCTabbarViewController.m */,
+			);
+			path = MtabbarS;
+			sourceTree = "<group>";
+		};
 		B79156A01B6B25AD00F2A5C6 /* JCCommonUseManager */ = {
 			isa = PBXGroup;
 			children = (
+				B714190B1BA2C28C004FB662 /* MtabbarS */,
 				B7F47CB21B7EDE190050C045 /* MPHelper */,
 				B7A687BB1B7C2DF20019B376 /* JCHeightCalculator */,
 				B7A687B01B7C2DC40019B376 /* Category */,
@@ -418,8 +441,11 @@
 				B7A687B91B7C2DC40019B376 /* UIViewController+HUD.m in Sources */,
 				B798FF041B6B10CA00BF35AF /* main.m in Sources */,
 				B7A687BA1B7C2DC40019B376 /* JCImageFix.m in Sources */,
+				B71419141BA2C28C004FB662 /* YCTabbarViewController.m in Sources */,
+				B71419131BA2C28C004FB662 /* CustomTabBarViewController.m in Sources */,
 				B7A687BE1B7C2E170019B376 /* JCHeightCalculator.m in Sources */,
 				B79156A51B6B291900F2A5C6 /* HomeViewController.m in Sources */,
+				B71419121BA2C28C004FB662 /* CustomTabBar.m in Sources */,
 				B7F47CBB1B7EDE190050C045 /* MPAPIHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

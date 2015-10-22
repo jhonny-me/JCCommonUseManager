@@ -53,7 +53,7 @@
     }else{
         size = [string sizeWithFont:font
                   constrainedToSize:textBlockMinSize
-                      lineBreakMode:UILineBreakModeWordWrap];
+                      lineBreakMode:NSLineBreakByWordWrapping];
         NSInteger lines = (size.height/19.f) + height;
         
         return size.height + 20.f +lines * space;

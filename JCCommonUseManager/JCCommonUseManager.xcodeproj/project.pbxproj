@@ -18,6 +18,7 @@
 		B71690801BD8CC700079FB1F /* star_yellow_empty_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B716907D1BD8CC700079FB1F /* star_yellow_empty_1.png */; settings = {ASSET_TAGS = (); }; };
 		B71690821BD8D1880079FB1F /* star_yellow_empty_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B71690811BD8D1880079FB1F /* star_yellow_empty_2.png */; settings = {ASSET_TAGS = (); }; };
 		B71690841BD8D1960079FB1F /* star_yellow_full_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B71690831BD8D1960079FB1F /* star_yellow_full_2.png */; settings = {ASSET_TAGS = (); }; };
+		B762BABA1BE8B1EA00C6AA57 /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B762BAB91BE8B1EA00C6AA57 /* PopView.m */; settings = {ASSET_TAGS = (); }; };
 		B79156A51B6B291900F2A5C6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79156A41B6B291900F2A5C6 /* HomeViewController.m */; };
 		B798FF041B6B10CA00BF35AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B798FF031B6B10CA00BF35AF /* main.m */; };
 		B798FF071B6B10CA00BF35AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B798FF061B6B10CA00BF35AF /* AppDelegate.m */; };
@@ -69,6 +70,8 @@
 		B71690831BD8D1960079FB1F /* star_yellow_full_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_yellow_full_2.png; sourceTree = "<group>"; };
 		B74A246C1B6C688600E74DE9 /* JCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCLog.h; sourceTree = "<group>"; };
 		B74A246F1B6C69B400E74DE9 /* JCCommonUseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCommonUseManager.h; sourceTree = "<group>"; };
+		B762BAB81BE8B1EA00C6AA57 /* PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopView.h; sourceTree = "<group>"; };
+		B762BAB91BE8B1EA00C6AA57 /* PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopView.m; sourceTree = "<group>"; };
 		B79156A11B6B25D900F2A5C6 /* JCDEFINE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDEFINE.h; sourceTree = "<group>"; };
 		B79156A31B6B291900F2A5C6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		B79156A41B6B291900F2A5C6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
@@ -171,9 +174,19 @@
 			path = CWStarRateView;
 			sourceTree = "<group>";
 		};
+		B762BAB71BE8B1EA00C6AA57 /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				B762BAB81BE8B1EA00C6AA57 /* PopView.h */,
+				B762BAB91BE8B1EA00C6AA57 /* PopView.m */,
+			);
+			path = PopView;
+			sourceTree = "<group>";
+		};
 		B79156A01B6B25AD00F2A5C6 /* JCCommonUseManager */ = {
 			isa = PBXGroup;
 			children = (
+				B762BAB71BE8B1EA00C6AA57 /* PopView */,
 				B71690791BD8CC700079FB1F /* CWStarRateView */,
 				B71690721BD8CA320079FB1F /* HPGrowingTextView */,
 				B714190B1BA2C28C004FB662 /* MtabbarS */,
@@ -493,6 +506,7 @@
 				B716907E1BD8CC700079FB1F /* CWStarRateView.m in Sources */,
 				B71419141BA2C28C004FB662 /* YCTabbarViewController.m in Sources */,
 				B71690781BD8CA320079FB1F /* HPTextViewInternal.m in Sources */,
+				B762BABA1BE8B1EA00C6AA57 /* PopView.m in Sources */,
 				B71419131BA2C28C004FB662 /* CustomTabBarViewController.m in Sources */,
 				B7A687BE1B7C2E170019B376 /* JCHeightCalculator.m in Sources */,
 				B79156A51B6B291900F2A5C6 /* HomeViewController.m in Sources */,

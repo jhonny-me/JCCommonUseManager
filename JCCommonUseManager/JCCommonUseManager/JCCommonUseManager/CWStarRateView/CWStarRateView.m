@@ -8,8 +8,8 @@
 
 #import "CWStarRateView.h"
 
-#define FOREGROUND_STAR_IMAGE_NAME @"yellow_full_star"
-#define BACKGROUND_STAR_IMAGE_NAME @"yellow_empty_star"
+#define FOREGROUND_STAR_IMAGE_NAME @"star_yellow_full_1"
+#define BACKGROUND_STAR_IMAGE_NAME @"star_yellow_empty_1"
 #define DEFALUT_STAR_NUMBER 5
 #define ANIMATION_TIME_INTERVAL 0.2
 
